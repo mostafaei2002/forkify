@@ -24,3 +24,4 @@
     "pre-push": "surge --project ./ --domain forkify-sina.surge.sh"
   }
 }
+}
