@@ -113,3 +113,5 @@ const init = function () {
 };
 
 init();
+
+console.log(`Testing CI/CD`)

@@ -10,11 +10,17 @@
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.0",
-    "parcel": "^2.10.0"
+    "git-scripts": "^0.6.4",
+    "parcel": "^2.10.0",
+    "surge": "^0.23.1"
   },
   "dependencies": {
     "core-js": "^3.33.0",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.14.0"
+  },
+  "git": {
+  "scripts": {
+    "pre-push": "surge --project ./ --domain forkify-sina.surge.sh"
   }
 }
