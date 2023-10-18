@@ -3,25 +3,18 @@
   "version": "1.0.0",
   "description": "Recipe application",
   "scripts": {
-    "start": "parcel index.html --no-cache",
+    "start": "parcel index.html --no-cache --open",
     "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.0",
-    "git-scripts": "^0.6.4",
-    "parcel": "^2.10.0",
-    "surge": "^0.23.1"
+    "parcel": "^2.10.0"
   },
   "dependencies": {
     "core-js": "^3.33.0",
     "fractional": "^1.0.0",
     "regenerator-runtime": "^0.14.0"
-  },
-  "git": {
-  "scripts": {
-    "pre-push": "surge --project ./ --domain forkify-sina.surge.sh"
   }
-}
 }

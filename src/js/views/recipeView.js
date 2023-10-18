@@ -1,6 +1,6 @@
 import icons from '../../img/icons.svg';
-import { Fraction } from 'fractional';
 import View from './view';
+import { Fraction } from '../../../node_modules/fractional/index.js';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
@@ -99,6 +99,7 @@ class RecipeView extends View {
   }
 
   _generateMarkupIngredient(ing) {
+    console.log(Fraction);
     return `
              <li class="recipe__ingredient">
               <svg class="recipe__icon">
