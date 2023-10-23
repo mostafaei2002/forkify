@@ -9,8 +9,6 @@ import { MODAL_CLOSE_SEC } from './config.js';
 // Temproary because of Parcel Bug
 
 // imports 2
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
 
 const controlRecipes = async function () {
   try {
